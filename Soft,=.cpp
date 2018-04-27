@@ -101,3 +101,99 @@ int main()
     }
 
 }
+   }
+    void showData()
+    {
+        NewPatient::showData();
+        cout<<"New Prescription: "<<endl<<newPrescription<<endl;
+    }
+};
+
+
+int main()
+{
+    cout<<"What Type Of Patient??(c/n) : "<<endl;
+    char c;
+    cin>>c;
+    if(c==c)
+    {
+        CurrentPatient c1;
+        cout<<"Enter Data For Current Medication: "<<endl;
+        c1.getData();
+        cout<<"\nShow Data For Current Medication: "<<endl;
+        c1.showData();
+    }
+    else
+    {
+        NewPatient n1;
+        cout<<"Enter Data For New Medication: "<<endl;
+        n1.getData();
+        cout<<"\nShow Data For New Medication: "<<endl;
+        n1.showData();
+    }
+
+}
+   }
+    void showData()
+    {
+        NewPatient::showData();
+        cout<<"New Prescription: "<<endl<<newPrescription<<endl;
+    }
+};
+
+
+int main()
+{
+    cout<<"What Type Of Patient??(c/n) : "<<endl;
+    char c;
+    cin>>c;
+    if(c==c)
+    {
+        CurrentPatient c1;
+        cout<<"Enter Data For Current Medication: "<<endl;
+        c1.getData();
+        cout<<"\nShow Data For Current Medication: "<<endl;
+        c1.showData();
+    }
+    else
+    {
+        NewPatient n1;
+        cout<<"Enter Data For New Medication: "<<endl;
+        n1.getData();
+        cout<<"\nShow Data For New Medication: "<<endl;
+        n1.showData();
+    }
+
+}
+   }
+    void showData()
+    {
+        NewPatient::showData();
+        cout<<"New Prescription: "<<endl<<newPrescription<<endl;
+    }
+};
+
+
+int main()
+{
+    cout<<"What Type Of Patient??(c/n) : "<<endl;
+    char c;
+    cin>>c;
+    if(c==c)
+    {
+        CurrentPatient c1;
+        cout<<"Enter Data For Current Medication: "<<endl;
+        c1.getData();
+        cout<<"\nShow Data For Current Medication: "<<endl;
+        c1.showData();
+    }
+    else
+    {
+        NewPatient n1;
+        cout<<"Enter Data For New Medication: "<<endl;
+        n1.getData();
+        cout<<"\nShow Data For New Medication: "<<endl;
+        n1.showData();
+    }
+
+}
