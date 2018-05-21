@@ -195,5 +195,14 @@ int main()
         cout<<"\nShow Data For New Medication: "<<endl;
         n1.showData();
     }
+    
+    else
+    {
+        NewPatient n1;
+        cout<<"Enter Data For New Medication: "<<endl;
+        n1.getData();
+        cout<<"\nShow Data For New Medication: "<<endl;
+        n1.showData();
+    }
 
 }
